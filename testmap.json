@@ -1,0 +1,26 @@
+{
+  "Date of Birth": {
+    "json_path": "PERSONAL INFORMATION -> Demographics -> Birth Date :",
+    "type": "FILL_FIELD"
+  },
+  "First Name": {
+    "json_path": "PERSONAL INFORMATION -> Name -> First Name :",
+    "type": "FILL_FIELD"
+  },
+  "Handicapped Accessible": {
+    "json_path": "PRACTICE LOCATIONS -> Active Locations -> [0] -> Accessibility : -> Does this office provide handicapped accessibility ?",
+    "type": "RADIO_BUTTON",
+    "allowed_values": [
+      "YES",
+      "NO"
+    ]
+  },
+  "Last Name": {
+    "json_path": "PERSONAL INFORMATION -> Name -> Last Name :",
+    "type": "FILL_FIELD"
+  },
+  "Social Security Number": {
+    "json_path": "PERSONAL INFORMATION -> Personal Identification Numbers -> Social Security Number :",
+    "type": "FILL_FIELD"
+  }
+}
